@@ -59,7 +59,7 @@
         $mdBottomSheet.show({
           parent: angular.element(document.getElementById('content')),
           template: '<md-bottom-sheet class="md-list md-has-header">' +
-                      '<md-subheader>Contact User</md-subheader>' +
+                      '<md-subheader>Contactar al Usuario</md-subheader>' +
                         '<md-list>' +
                           '<md-item ng-repeat="item in vm.items">' +
                             '<md-button ng-click="vm.performAction(item)">{{item.name}}</md-button>' +
